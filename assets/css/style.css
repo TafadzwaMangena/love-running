@@ -51,7 +51,7 @@ header a {
     list-style-type: none;
 }
 
-#menu>li {
+#menu > li {
     margin-bottom: 1em;
 }
 
@@ -59,7 +59,7 @@ header a {
     border-bottom: 1px solid #3a3a3a;
 }
 
-/* Navbar styles with dropdown toogle*/
+/* Navbar styles with dropdown toogle */
 nav {
     position: absolute;
     background-color: #ffffff;
@@ -114,6 +114,32 @@ main {
 #cover-text > h2, #cover-text > h3 {
     color: #ffffff;
 }
+/* Reasons section */
+#reasons {
+    width: 90%;
+    margin: 20px auto;
+}
+
+#reasons h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 280%;
+}
+
+#benefits-physical > div,
+#benefits-mental > div {
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+#benefits p {
+    padding: 0 20px;
+}
+
+#benefits hr {
+    border-top: 1px solid #3a3a3a;
+    margin: 5px 0;
+}
 
 /* Footer */
 #social-networks {
@@ -147,7 +173,7 @@ main {
         display: flex;
     }
 
-    #menu>li {
+    #menu > li {
         padding-left: 1rem;
     }
 
@@ -174,9 +200,9 @@ main {
     }
 }
 
-/* Large devices (laptop and desktops, 992px and up) */
+/* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
-    #menu a:hover {
+    #menu a:hover{
         border-bottom: 1px solid #3a3a3a;
     }
 }
